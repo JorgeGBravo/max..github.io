@@ -1,0 +1,71 @@
+:root {
+  --colorbackground: #d7d7d9;
+  --colorbackgroundnav: #735340;
+  --colorborder: #262625;
+  --colorboxshadow: #804c39;
+  --colorfontnav: #44D1D;
+  --colorimgpaw: #262625;
+  --colorpawshadow: #a57051;
+}
+* {
+  /*    border: 5px solid black; */
+}
+body {
+  background-color: var(--colorbackground);
+}
+header {
+  background-color: var(--colorbackgroundnav);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  font-family: "Anton", sans-serif;
+  font-size: 100px;
+  border: 5px solid var(--colorborder);
+  color: var(--colorfontnav);
+}
+span {
+  font-size: 200px;
+  text-shadow: 5px 5px 2px var(--colorpawshadow);
+}
+.maxtext {
+  text-shadow: 2px 2px 2px var(--colorpawshadow);
+}
+
+.prueba {
+  font-size: 20px;
+  text-align: center;
+}
+.pagina {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.gif {
+  margin: 5px;
+  width: 400px;
+  height: 450px;
+  box-shadow: 10px 10px 2px var(--colorboxshadow);
+  color: var(--colorimgpaw);
+}
+.entornotexto {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  font-size: 1em;
+  margin: auto;
+  text-align: center;
+  justify-content: space-around;
+  flex-direction: column;
+  font-family: "Indie Flower", cursive;
+}
+
+.maxtext {
+  font-family: "Indie Flower", cursive;
+  font-size: 29px;
+}
+.patitas img {
+  width: 100%;
+  display: flex;
+}
